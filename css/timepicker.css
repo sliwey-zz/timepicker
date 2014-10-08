@@ -1,0 +1,31 @@
+/**
+ * @author qianlw
+ * 
+ * @date 2014-9-29
+ * 
+ * @update 2014-9-29 
+ */
+ 
+ div,p,dl,dt,dd,ul,li{margin:0;padding:0;font-family:'Microsoft YaHei';}
+.timepicker{display:none;position:absolute;width:200px;font-size:14px;color:rgb(153,153,153);background:rgb(255,255,255);box-shadow:0 0 5px rgb(187,187,187);border-radius:3px;}
+.timepicker.show{display:block;}
+.timepicker .timepicker-title{background:rgb(255,149,0);color:rgb(255,255,255);text-align:center;line-height:2;border-radius:3px;}
+.timepicker .timepicker-row:before,.timepicker .timepicker-row:after{content:" ";display:block;height:0;visibility:hidden;}
+.timepicker .timepicker-row:after{clear:both;}
+.timepicker .timepicker-row{margin:10px 0 0 15px;*zoom:1;}
+.timepicker .timepicker-label{float:left;width:40px;}
+.timepicker .timepicker-time{float:left;width:80px;text-align:center;}
+.timepicker .timepicker-input{border:1px solid rgb(228,228,228);border-radius:5px;padding:1px 15px;cursor:pointer;}
+.timepicker .timepicker-arrow{background:url(timepicker.png) 0 0 no-repeat;display:inline-block;width:15px;height:12px;position:relative;left:20px;}
+.timepicker .timepicker-list{display:none;position:absolute;width:80px;height:200px;overflow-y:auto;background:rgb(255,255,255);border:1px solid rgb(228,228,228);border-radius:5px;z-index:100;}
+.timepicker .timepicker-list.show{display:block;}
+.timepicker ul{list-style:none;}
+.timepicker .timepicker-option{padding:1px 0;cursor:pointer;}
+.timepicker .timepicker-option:hover,.timepicker .timepicker-option.select{background:rgb(255,149,0);color:rgb(255,255,255);}
+.timepicker .timepicker-btnbox:before,.timepicker .timepicker-btnbox:after{content:" ";display:block;height:0;visibility:hidden;}
+.timepicker .timepicker-btnbox:after{clear:both;}
+.timepicker .timepicker-btnbox{border-top:1px solid rgb(223,223,223);margin-top:15px;padding:6px 15px;*zoom:1;}
+.timepicker .timepicker-button{text-decoration:none;font-size:12px;color:rgb(255,255,255);padding:2px 5px;border-radius:5px;background:rgb(255,149,0);}
+.timepicker .timepicker-button:hover{text-decoration:none;background:rgb(255,172,0);}
+.timepicker .timepicker-lbtn{float:left;}
+.timepicker .timepicker-rbtn{float:right;}
